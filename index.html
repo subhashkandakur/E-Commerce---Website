@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>THis is Shopping cart</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="head-container">
+                
+                <div class="navbar">
+                    <div class="logo">
+                        
+                        <a href="BFCESHOP.html"><img src="images/main-logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="BFCESHOP.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="login.html">Account</a></li>
+                        </ul>
+                        
+                    </nav>
+                    
+        
+                
+                   <button id="cart"> <img class="carti" src="images/cart.png" width="30px" height="30px"><span>0</span></button>
+                      
+                   <div class="popup-container" id="container">
+                           <div class="popup">
+                               <button id="close">X</button>
+
+                               <div class="cart-row">
+                                <span class="cart-item cart-header cart-column">ITEM</span>
+                                <span class="cart-price cart-header cart-column">PRICE</span>
+                                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                            </div>
+                            <div class="cart-items">
+                              
+                            </div>
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Total</strong>
+                                <span class="cart-total-price"> Rs 0</span>
+                            </div>
+                            <div id="purchasecontainer"></div>
+                            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                        </div>
+                    </div>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <h1>This is Bengaluru Fc <img src="" alt=""> </h1>
+                        <h3>Pride of Karnataka</h3>
+                        <a href="" class="btn">Explore Now &#10513;</a>
+        
+        
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.bengalurufc.com/wp-content/uploads/2021/11/official-web-home-page.jpg" width="50%">
+                        
+                    </div>
+        
+        
+                </div>
+
+        <!-------------------------------------------------Products------------------------------------------------->
+    </header>
+    <div class="container">
+        <div class="image">
+            <img class="shop-item-image" src="images/fourthkit.jfif" alt="">
+            <h3 class="shop-item-title">Home Kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img class="shop-item-image" src="images/green.jfif" alt="">
+            <h3  class="shop-item-title">Green kit</h3>
+            <h3 class="shop-item-price">Rs 1400</h3>
+            <a   class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img class="shop-item-image"src="images/anthemjacket.jfif" alt="">
+            <h3  class="shop-item-title">Athem Jacket</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img  class="shop-item-image"src="images/awaykit.jpg" alt="">
+            <h3  class="shop-item-title">Away kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img  class="shop-item-image"src="images/awaykit.jpg" alt="">
+            <h3  class="shop-item-title">Away kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img  class="shop-item-image"src="images/awaykit.jpg" alt="">
+            <h3  class="shop-item-title">Away kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img  class="shop-item-image"src="images/awaykit.jpg" alt="">
+            <h3  class="shop-item-title">Away kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img  class="shop-item-image"src="images/awaykit.jpg" alt="">
+            <h3  class="shop-item-title">Away kit</h3>
+            <h3 class="shop-item-price">Rs 1500</h3>
+            <a   class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foot-col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img  src="images/app-store.png" alt="">
+                        <img src="images/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="foot-col-2">
+                   <img src="images/bengalurufc logo.png" alt="">
+                </div>
+                <div class="foot-col-3">
+                    <h3>Follows Us </h3>
+                    <ul>
+                        <li><a href="https://twitter.com/bengalurufc"><img src="images/twitter.png" ></a></li>
+                        <li><a href="https://www.youtube.com/hashtag/bengalurufc"><img src="images/youtube.png" alt=""></a></li>
+                        <li><a href=""><img src="images/facebook logo.png" alt=""></a></li>
+                        <li><a href=""><img src="images/intagram.jfif" alt=""></a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright2020-Bengalurufc</p>
+        </div>
+    </div>
+    <Script>
+         var btn = document.getElementById('btn-purchase')
+var containerp = document.getElementById('pcontainer');
+
+
+btn.addEventListener('click',()=>{
+   
+    createNotification();
+ 
+});
+
+function createNotification(){
+    const notif = document.createElement('div');
+    notif.classList.add('toast');
+
+    notif.innerText = "Items Purchased"
+
+    containerp.appendChild(notif);
+    setTimeout(()=>{
+        notif.remove();
+    },3000)
+}
+
+    </Script>
+    
+    
+    
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="main.js" async></script>
+</body>
+</html>
